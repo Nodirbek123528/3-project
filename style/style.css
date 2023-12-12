@@ -1,0 +1,1235 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+ol,
+li{
+    list-style: none;
+}   
+a{
+    color: inherit;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+}
+.asosiy{
+    width: 100%;
+    height: 100%;
+    font-family:'Roboto', 'sans-serif';
+    font-style: normal;
+    font-variant: normal;
+
+}
+.container{
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    padding: 0px 22px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid rgb(198, 198, 198);
+    margin-bottom: 18px;
+}
+.panel{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.ong{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 80px;
+
+}
+.ong-text{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 0px 2px;
+    
+}
+.text-decor1{
+    color: #85171A;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.text-decor2{
+    color: #DC2025;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.text-decor3{
+    color: #FEBA08;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.decor-text{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+}
+.orta{
+    display: flex;
+    flex-direction: row;
+}
+.orta-text{
+    color: rgba(31, 46, 53, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.orta-text1{
+    color: rgba(31, 46, 53, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.orta-text2{
+    color: rgba(31, 46, 53, 0.80);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+.chap{
+    margin-left: 55px;
+    
+}
+.chap-dekor{
+    transition: all 1s ease-in-out;
+    padding: 0px 5px;
+}
+.chap-dekor:hover svg{
+    fill: rgb(0, 0, 0);
+}
+.chap-dekor2{
+    transition: all 1s ease-in-out;
+    padding: 0px 5px;
+}
+.chap-dekor2:hover svg{
+    fill: rgb(0, 0, 0);
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background-color: #EE4248;;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+.text-footer1{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.text-footer{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container2{
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    padding: 22px 22px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container3{
+    width: 100%;
+    max-width: 1140px;
+    height: auto;
+    padding: 22px 22px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.ustgi-main{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+.ong-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.chap-text{
+    color: #1F2E35;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.687%;
+}
+.chap-text2{
+    color: #EE4248;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 133.687%;
+    margin-bottom: 20px;
+}
+.text-main{
+    color: #30444E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.687%;
+    margin-bottom: 15px;
+}
+.btn-footer{
+    width: 160px;
+    height: 50px;
+    background-color: #EE4248;
+    padding: 12px 32px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.687%;
+}
+.orta-main{
+    width: 100%;
+    height: auto;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+.ong-orta-footer{
+    padding: 50px 50px;
+}
+.orta-footer-text{
+    color: #1F2E35;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.687%;
+}
+.orta-footer-text2{
+    color: #EE4248;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.687%;
+}
+.chap-orta-main{
+    padding: 90px 25px;
+}
+.main-com{
+    color: #30444E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-align:justify;
+}
+.past-main-text{
+    color: #1F2E35;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.687%;
+}
+.past-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+.past-main-past{
+    display: flex;
+    flex-direction: row;
+}
+.past-main-chap{
+    width: calc(100%/3);
+    height: auto;
+    display: inline-flex;
+    padding: 24px 20px 4px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+}
+.past-main-orta{
+    width: calc(100%/3);
+    height: auto;
+    display: inline-flex;
+    padding: 24px 20px 4px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+}
+.past-main-ong{
+    width: calc(100%/3);
+    height: auto;
+    display: inline-flex;
+    padding: 24px 20px 4px 24px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+}
+.gl-text{
+    color: #EE4248;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 133.687%;
+}
+.opis-text{
+    color: #30444E;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.btn-text{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144.687%;
+    display: flex;
+    padding: 8px 16px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #EE4248;
+    box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.25);
+}
+.main-logo{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo-ong{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+
+}
+.ong-logo-text{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding: 0px 2px;
+    
+}
+.logo-text{
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.60);
+}
+.text-logo1{
+    color: #85171A;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.text-logo2{
+    color: #DC2025;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.text-logo3{
+    color: #FEBA08;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -2.4px;
+}
+.main-logo-ong{
+    margin-right: 30px;
+}
+.main-logo-text{
+    padding-bottom: 10px;
+}
+.main-logo-text-text{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-logo-locate{
+    display: flex;
+    flex-direction: column;
+}
+.main-logo-locate-text{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%;
+    margin: -3px 0px;
+}
+.main-logo-locate-text2{
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%;
+    margin: -3px 0px;
+}
+.main-logo-orta{
+    margin-left: 30px;
+}
+.main-logo-ustgi-text{
+    color: #263238;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+.main-logo-adres-text{
+    display: flex;
+    flex-direction: column;
+    color: #263238;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 149.187%;
+}
+.main-logo-ustg{
+    color: #263238;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.main-logo-logo-ustgi{
+    display: flex;
+    align-items: center;
+}
+.main-logo-logo-pastgi{
+    display: flex;
+    align-items: center;
+}
+.logo1{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+.logo2{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+.logo3{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+.logo4{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+.logo5{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+.logo6{
+    padding-right: 5px;
+    width: auto;
+    height: auto;
+}
+
+.main-logo-logo{
+    padding-left: 15px;
+    align-items: end;
+}
+@media screen and (max-width:2040px) {
+    .chap-dekor1{
+        display: none;
+    }
+    
+}
+
+@media screen and (max-width:1047px) {
+    .chap-text{
+        font-size: 38px;
+    }
+    .chap-text2{
+        font-size: 38px;
+    }
+    .text-main{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:978px) {
+    .chap{
+        margin-left: 30px;
+    }
+    .ong{
+        padding-right: 50px;
+    }
+}
+@media screen and (max-width:951px){
+    .chap-text{
+        font-size: 34px;
+    }
+    .chap-text2{
+        font-size: 34px;
+    }
+}
+@media screen and (max-width:950px) {
+    .ong{
+        padding-right: 35px;
+    }
+}
+@media screen and (max-width:993px){
+    .chap-text{
+        font-size: 36px;
+    }
+    .chap-text2{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width:931px){
+    .ustgi-main .chap img{
+        width: 450px;
+        height: 350px;
+    }
+    
+}
+@media screen and (max-width:920px) {
+    .ong{
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:904px) {
+    .orta-footer-text{
+        font-size: 26px;
+    }
+    .orta-footer-text2{
+        font-size: 26px;
+    }
+    .main-com{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:894px) {
+    .orta-text{
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width:890px) {
+    .ong-orta-footer{
+        padding: 25px 25px;
+    }
+    .ong-orta-footer img{
+        width: 350px;
+        height: 350px;
+    }
+}
+@media screen and (max-width:872px) {
+    .chap-text{
+        font-size: 32px;
+    }
+    .chap-text2{
+        font-size: 32px;
+    }
+    .text-main{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:834px) {
+    .chap{
+        margin-left: 12px;
+    }
+    .orta-text2{
+        padding: 0px 6px;
+    }
+}
+@media screen and (max-width:808px) {
+    .ong{
+        padding-right: 10px;
+    }
+}
+@media screen and (max-width:798px) {
+    .chap-dekor{
+        display: none;
+    }
+    .ong{
+        padding-right: 40px;
+    }
+}
+@media screen and (max-width:790px) {
+    .main-logo{
+        flex-direction: column;
+        align-items: start;
+    }
+    .main-logo-ong {
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+    .main-logo-orta {
+        margin-right: 0px;
+        padding-left: 190px;
+        padding-bottom: 15px;
+    }
+    .main-logo-chap {
+        margin-right: 0px;
+        padding-left: 300px;
+    }
+}
+@media screen and (max-width:786px){
+    .ustgi-main .chap img{
+        width: 400px;
+        height: 300px;
+    }
+    
+}
+@media screen and (max-width:750px) {
+    .orta-footer-text{
+        font-size: 24px;
+    }
+    .orta-footer-text2{
+        font-size: 24px;
+    }
+    .main-com{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:733px){
+    .chap-text{
+        font-size: 24px;
+    }
+    .chap-text2{
+        font-size:24px;
+    }
+}
+@media screen and (max-width:720px) {
+    .main-logo{
+        flex-direction: column;
+        align-items: start;
+    }
+    .main-logo-ong {
+        margin-right: 0px;
+        padding-bottom: 15px;
+    }
+    .main-logo-orta {
+        margin-right: 0px;
+        padding-left: 140px;
+        padding-bottom: 15px;
+    }
+    .main-logo-chap {
+        margin-right: 0px;
+        padding-left: 260px;
+    }
+}
+
+@media screen and (max-width:714px){
+    .ustgi-main .chap img{
+        width: 350px;
+        height: 250px;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    .main-com{
+        font-size: 12px;
+    }
+    .orta-text{
+        padding: 0px 8px;
+        font-size: 16px;
+    }
+    .orta-text1{
+        padding: 0px 4px;
+        font-size: 16px;
+    }
+    .orta-text2{
+        padding: 0px 10px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:690px) {
+    
+    
+}
+@media screen and (max-width:688px) {
+    .orta-footer-text{
+        font-size: 22px;
+    }
+    .orta-footer-text2{
+        font-size: 22px;
+    }
+
+}
+@media screen and (max-width:657px){
+    .chap-text{
+        font-size: 26px;
+    }
+    .chap-text2{
+        font-size: 26px;
+    }
+    .text-main{
+        font-size: 12px;
+    }
+    .btn-footer{
+        width: 130px;
+        height: 35px;
+        padding: 6px 16px;
+    }
+}
+@media screen and (max-width:650px) {
+    .ong-orta-footer img{
+        
+        display: none;
+    }
+    .ong-orta-footer{
+        padding: 0px 0px;
+    }
+
+}
+@media screen and (max-width:621px){
+    .ustgi-main .chap img{
+        width: 300px;
+        height: 200px;
+    }
+    
+}
+@media screen and (max-width:555px){
+    .ustgi-main .chap img{
+        width: 250px;
+        height: 150px;
+    }
+    .btn-footer{
+        width: 100px;
+        height: 20px;
+        padding: 3px 9px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:463px){
+    .ustgi-main .chap img{
+        width: 200px;
+        height: 120px;
+    }
+    
+}
+@media screen and (max-width:456px) {
+    .gl-text{
+        font-size: 24px;
+    }
+    .past-main-chap{
+        padding: 17px 10px 2px 17px;
+    }
+    .past-main-orta{
+        padding: 17px 10px 2px 17px;
+    }
+    .past-main-ong{
+        padding: 17px 10px 2px 17px;
+    }
+    .main-logo{
+        flex-wrap: wrap;
+    }
+
+
+}
+@media screen and (max-width:450px){
+    .chap-text{
+        font-size: 20px;
+    }
+    .chap-text2{
+        font-size:20px;
+        margin-bottom:10px;
+    }
+    .text-main{
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:448px){
+    .ustgi-main .chap img{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:414px){
+    .orta-text{
+        padding: 0px 3px;
+        font-size: 8px;
+    }
+    .orta{
+        display: none;
+    }
+    .orta-text1{
+        padding: 0px 2px 0px 5px ;
+        font-size: 8px;
+    }
+    .orta-text2{
+        padding: 0px 10px 0px 5px;
+        font-size: 8px;
+    }
+    .ong{
+        padding-right: 40px;
+    }
+    .chap{
+        margin-left: 0px;
+    }
+    .container{
+        padding: 0px 0px;
+    }
+    .text-decor1{
+        font-size: 28px;
+    }
+    .text-decor2{
+        font-size: 28px;
+    }
+    .text-decor3{
+        font-size: 28px;
+    }
+    .header{
+        height: auto;
+    }
+    .decor-text{
+        font-size: 6px;
+    }
+    .strelka{
+        margin-bottom: 6px;
+        margin-right: 3px;
+        width: 6px;
+        height: 6px;
+        padding-right: 3px;
+    }
+    .chap-dekor{
+        padding: 0px 1px 0px 0px ;
+    }
+    .panel{
+        padding: 5px 10px 5px 20px ;
+    }
+    .decoration{
+        width: 15px;
+        height: 15px;
+    }
+    .chap-text{
+        font-size: 14px;
+    }
+    .chap-text2{
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .chap{
+        margin-left: 0px;
+    }
+    .chap img{
+        width: 190px;
+        height: 140px;
+    }
+    .text-main{
+        font-size: 10px;
+    }
+    .chap-text{
+        font-size: 16px;
+    }
+    .chap-text2{
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+    .chap{
+        margin-bottom: 5px;
+    }
+    .chap img{
+        width: 190px;
+        height: 140px;
+    }
+    .text-main{
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .btn-footer{
+        width: 90px;
+        height: 25px;
+        font-size: 8px;
+        padding: 8px 22px 
+    }
+    .ong-orta-footer{
+        padding: 5px 5px;
+    }
+    .ong-orta-footer img{
+        width: 150px;
+        height: 150px;
+    }
+    .chap-orta-main{
+        padding: 8px 8px;
+    }
+    .orta-footer-text{
+        font-size: 17px;
+    }
+    .orta-footer-text2{
+        font-size: 17px;
+    }
+    .main-com{
+        font-size: 8px;
+    }
+    .past-main-text{
+        font-size: 18px;
+    }
+    .past-main-chap{
+        padding: 10px 2px 5px 5px;
+        gap: 10px;
+    }
+    .past-main-orta{
+        padding: 10px 5px 5px 5px;
+        gap: 10px;
+    }
+    .past-main-ong{
+        padding: 10px 2px 5px 5px;
+        gap: 10px;
+    }
+    .gl-text{
+        font-size: 10px;
+    }
+    .rasm svg{
+        width: 50px;
+        height: 50px;
+    }
+    .opis-text{
+        font-size: 10px;
+    }
+    .btn-text{
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+        padding: 5px 12px;
+    }
+    .text-logo1 {
+        font-size: 24px;
+    }
+    .text-logo2 {
+        font-size: 24px;
+    }
+    .text-logo3 {
+        font-size: 24px;
+    }
+    .logo-text{
+        font-size: 5px;
+    }
+    .logo-ong{
+        padding-bottom: 2px;
+    }
+    .main-logo-text-text{
+        font-size: 4px;
+    }
+    .main-logo-text{
+        padding-bottom: 4px;
+    }
+    .main-logo-locate-text{
+        font-size: 4px;
+    }
+    .main-logo-locate-text2{
+        font-size: 4px;
+        padding-top: 7px;
+    }
+    .main-logo-ustgi-text{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+    .main-logo-adres-text {
+        font-size: 3px;
+    }
+    .main-logo-logo-ustgi img{
+        width: 60px;
+        height: 20px;
+    }
+    .main-logo-logo-pastgi img{
+        width: 60px;
+        height: 20px;
+    }
+    .logo4{
+        width: 10px;
+        height: 10px;
+    }
+    .logo5{
+        width: 50px;
+        width: 10px;
+    }
+    .logo6{
+        width: 50px;
+        height: 10px;
+    }
+
+    .container3{
+        padding: 8px 8px;
+    }
+    .main-logo{
+        justify-content: center;
+        display: flex;
+    }
+    .main-logo-ong{
+        width: 100px;
+        height: auto;
+    }
+    .main-logo-orta{
+        width: 100px;
+        height: auto;
+    }
+    .text-footer{
+        font-size: 12px;
+    }
+    .text-footer1{
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width:411px) {
+
+    .chap-dekor1{
+        display: block;
+
+    }
+    .ong{
+        padding-right: 260px;
+    }
+    .chap{
+        display: flex;
+        justify-content: end;
+    }
+}
+@media screen and (max-width:395px) {
+
+    .ong{
+        padding-right: 250px;
+    }
+
+}
+
+@media screen and (max-width:384px){
+    .orta-text{
+        padding: 0px 3px;
+        font-size: 8px;
+    }
+    .orta-text1{
+        padding: 0px 2px 0px 5px ;
+        font-size: 8px;
+    }
+    .orta-text2{
+        padding: 0px 10px 0px 5px;
+        font-size: 8px;
+    }
+    .ong{
+        padding-right: 2px;
+    }
+    .chap{
+        margin-left: 0px;
+    }
+    .container{
+        padding: 0px 5px;
+    }
+    .text-decor1{
+        font-size: 28px;
+    }
+    .text-decor2{
+        font-size: 28px;
+    }
+    .text-decor3{
+        font-size: 28px;
+    }
+    .header{
+        height: auto;
+    }
+    .decor-text{
+        font-size: 6px;
+    }
+    .strelka{
+        margin-bottom: 6px;
+        margin-right: 3px;
+        width: 6px;
+        height: 6px;
+        padding-right: 3px;
+    }
+    .chap-dekor{
+        padding: 0px 1px 0px 0px ;
+    }
+    .panel{
+        padding: 5px 1px 5px 1px ;
+    }
+    .decoration{
+        width: 15px;
+        height: 15px;
+    }
+    .chap{
+        margin-left: 0px;
+    }
+    .chap img{
+        width: 190px;
+        height: 140px;
+    }
+    .chap-text{
+        font-size: 14px;
+    }
+    .chap-text2{
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+    .text-main{
+        font-size: 8px;
+        margin-bottom: 3px;
+    }
+    .btn-footer{
+        width: 90px;
+        height: 25px;
+        font-size: 8px;
+        padding: 8px 22px 
+    }
+    .ong-orta-footer{
+        padding: 5px 5px;
+    }
+    .ong-orta-footer img{
+        width: 150px;
+        height: 150px;
+    }
+    .chap-orta-main{
+        padding: 8px 8px;
+    }
+    .orta-footer-text{
+        font-size: 14px;
+    }
+    .orta-footer-text2{
+        font-size: 14px;
+    }
+    .main-com{
+        font-size: 7px;
+    }
+    .past-main-text{
+        font-size: 16px;
+    }
+    .past-main-chap{
+        padding: 10px 2px 5px 5px;
+        gap: 10px;
+    }
+    .past-main-orta{
+        padding: 10px 5px 5px 5px;
+        gap: 10px;
+    }
+    .past-main-ong{
+        padding: 10px 2px 5px 5px;
+        gap: 10px;
+    }
+    .gl-text{
+        font-size: 10px;
+    }
+    .rasm svg{
+        width: 50px;
+        height: 50px;
+    }
+    .opis-text{
+        font-size: 10px;
+    }
+    .btn-text{
+        width: 70px;
+        height: 20px;
+        font-size: 8px;
+        padding: 5px 12px;
+    }
+    .ong{
+        padding-right: 250px;
+
+    }
+
+}
+@media screen and (max-width:369px) {
+    .ong{
+        padding-right: 240px;
+    }
+}
+@media screen and (max-width:355px) {
+    .ong{
+        padding-right: 230px;
+    }
+}
+@media screen and (max-width:313px) {
+    .ong{
+        padding-right: 210px;
+    }
+}
